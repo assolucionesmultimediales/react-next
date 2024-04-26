@@ -1,12 +1,13 @@
 import NavMenu from "./NavMenu";
+import styles from "./NavBar.module.css"
 
 const NavBar = (props) => {
 const {title} = props
 
     return (
-        <header>
+        <header className={styles.container}>
             <h1>{title}</h1>
-            <nav>
+            <nav className={styles.menu}>
             <NavMenu/>
             </nav>
         </header>

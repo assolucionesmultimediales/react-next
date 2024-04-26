@@ -1,13 +1,11 @@
 import Image from "next/image"
+import styles from './hero2.module.css'
 
 const Hero2 = ({mainText}) =>{
     return(
-        <div>
-            <h3 style={{color:'#AD77F1', textAlign:'center', fontSize:'30px', marginTop:'4%', marginBottom:'4%'}}>{mainText}</h3>
-            <Image alt="gojo2" 
-            src={`/imagenes/gojo2.png`} 
-            width={`1920`} 
-            height={`1080`}/>
+        <div className={styles["container"]}>
+            <h3>{mainText}</h3>
+            <p>mi amorrr</p>
         </div>
     )
 }
