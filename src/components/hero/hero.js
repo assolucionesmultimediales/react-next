@@ -2,12 +2,13 @@ import styles from './hero.module.css'
 
 const Hero = ({ imagen, alt, title }) => {
     return (
-      <div className={styles.conteiner}>
-        <h3 >{title}</h3>
-        <p>puro amor</p>
-        <img src={imagen} alt={alt} />
-        
+      <div className={styles.container}>
+      <img src={imagen} alt={alt} />
+      <div>
+          <h3>{title}</h3>
+          <p>puro amor</p>
       </div>
+  </div>  
     );
   };
   
