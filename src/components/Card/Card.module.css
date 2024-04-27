@@ -1,7 +1,6 @@
-.contenedorcard{
-    background:rgb(196, 180, 211);
-    margin-top: 5%;
-    width: 20%;
+.contenedorcard {
+    background: rgb(196, 180, 211);
+    margin: 5%;
     padding: 4%;
     display: flex;
     flex-direction: column;
@@ -10,13 +9,13 @@
     border: 5px solid white;
 }
 
-.contenedorcard h3{
+.contenedorcard h3 {
     margin-top: 30px;
 }
 
-.contenedorcard button{
+.contenedorcard button {
     background-color: black;
-    color:rgb(196, 180, 211) ;
+    color: rgb(196, 180, 211);
     margin-top: 30px;
     padding: 4%;
     cursor: pointer;

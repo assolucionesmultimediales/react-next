@@ -1,0 +1,5 @@
+.containercardsgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Define el ancho de las columnas */
+    gap: 20px; /* Espacio entre las tarjetas */
+}

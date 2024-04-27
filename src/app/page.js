@@ -13,19 +13,7 @@ export default function Home() {
       <NavBar title={'Satoru Gojo'}/>
       <Hero imagen={fotos[0].imagen} alt={fotos[0].description} title={fotos[0].title} />
       <Hero2 mainText={`El mas lindo`}/>
-      <div>
-        <CardsGridComp/>
-      {
-        cardGrid.map((card, index)=>(
-        <Card key={index} 
-        title={card.title} 
-        image = {card.image} 
-        description={card.description}
-        />
-      ))}
-      </div>  
-      
-
+      <CardsGridComp cards={cardGrid}/>
     </main>
   );
 }
