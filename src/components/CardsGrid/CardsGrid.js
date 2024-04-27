@@ -1,32 +1,32 @@
 const cardGrid = [{
-    title:'Un Gojo Casual',
+    title:'カジュアルな五条',
     description: '♡',
     image:'/imagenes/gojobn1.jpg'
 },
 {
-    title:'Un Gojo Poderoso',
+    title:'パワフルな五条',
     description: '❤',
     image:'/imagenes/gojobn2.jpeg'
 },
 
 {
-    title:'Un Gojo Enojado',
+    title:'怒る五条',
     description: '♡',
     image:'/imagenes/gojobn3.jpg'
 },
 
 {
-    title:'Un Gojo Profesor',
+    title:'五条雲教授',
     description: '❤',
     image:'/imagenes/gojobn4.jpg'
 },
 {
-    title:'Un Gojo Asqueroso',
+    title:'気持ち悪い五条',
     description: '♡',
     image:'/imagenes/gojobn5.jpg'
 },
 {
-    title:'Un Gojo Cabron',
+    title:'五条野郎',
     description: '❤',
     image:'/imagenes/gojobn6.jpg'
 }
