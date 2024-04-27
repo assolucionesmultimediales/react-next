@@ -1,33 +1,33 @@
 const cardGrid = [{
-    title:'Card 1',
-    description: 'Description Card 1',
+    title:'Un Gojo Casual',
+    description: '♡',
     image:'/imagenes/gojobn1.jpg'
 },
 {
-    title:'Card 2',
-    description: 'Description Card 2',
+    title:'Un Gojo Poderoso',
+    description: '❤',
     image:'/imagenes/gojobn2.jpeg'
 },
 
 {
-    title:'Card 3',
-    description: 'Description Card 3',
+    title:'Un Gojo Enojado',
+    description: '♡',
     image:'/imagenes/gojobn3.jpg'
 },
 
 {
-    title:'Card 4',
-    description: 'Description Card 4',
+    title:'Un Gojo Profesor',
+    description: '❤',
     image:'/imagenes/gojobn4.jpg'
 },
 {
-    title:'Card 5',
-    description: 'Description Card 5',
+    title:'Un Gojo Asqueroso',
+    description: '♡',
     image:'/imagenes/gojobn5.jpg'
 },
 {
-    title:'Card 6',
-    description: 'Description Card 6',
+    title:'Un Gojo Cabron',
+    description: '❤',
     image:'/imagenes/gojobn6.jpg'
 }
 ];

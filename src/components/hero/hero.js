@@ -6,7 +6,7 @@ const Hero = ({ imagen, alt, title }) => {
       <img src={imagen} alt={alt} />
       <div>
           <h3>{title}</h3>
-          <p>puro amor</p>
+          <p>Obtené tu certificado de matrimonio aquí</p>
       </div>
   </div>  
     );

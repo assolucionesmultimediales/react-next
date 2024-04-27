@@ -1,0 +1,28 @@
+.containerfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.menufooter{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menufooter ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menufooter ul li {
+    display: inline-block;
+    margin-right: 20px; /* Agrega un margen derecho entre los elementos <a> */
+}
+
+.containerfooter a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
