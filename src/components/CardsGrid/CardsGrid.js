@@ -19,7 +19,7 @@ const cardGrid = [{
     title:'五条雲教授',
     description: '❤',
     image:'/imagenes/gojobn4.jpg'
-},
+}/*,
 {
     title:'気持ち悪い五条',
     description: '♡',
@@ -29,7 +29,7 @@ const cardGrid = [{
     title:'五条野郎',
     description: '❤',
     image:'/imagenes/gojobn6.jpg'
-}
+}*/
 ];
 
 export default cardGrid
